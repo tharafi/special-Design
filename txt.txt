@@ -1,0 +1,7 @@
+    document.querySelectorAll("ul li").forEach( element => {
+        element.classList.remove("active");
+        // add active class 
+        if(element.dataset.color = mainColors) {
+            li.classList.add("active");
+        }
+    });
